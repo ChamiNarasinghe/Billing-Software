@@ -1,13 +1,16 @@
+import Userform from '../../components/UserForm/Userform';
+import UserList from '../../components/UserLists/UserList';
 import './ManageUsers.css';
+
 
 const ManageUsers = () => {
     return (
         <div className="users-container text-light">
             <div className="left-column">
-                Users form
+             <Userform/>
             </div>
             <div className="right-column">
-                List of Users
+               <UserList/>
             </div>
         </div>
     );
