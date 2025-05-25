@@ -55,8 +55,8 @@ const CategoryList = () => {
                                     <img src={category.imgUrl} alt={category.name} className="category-image" />
                                 </div>
                                 <div className="flex-grow-1">
-                                  <h5 className="mb-1 text-dark">{category.name}</h5>
-                                <p className="mb-0 text-dark">{category.items} Items</p>
+                                  <h5 className="mb-1 text-light">{category.name}</h5>
+                                <p className="mb-0 text-light">{category.items} Items</p>
 
                                 </div>
                                 <div>
