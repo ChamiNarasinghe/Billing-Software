@@ -1,10 +1,11 @@
-.item-card-hover{
-    transform: translate(-5px);
-    transition: transform 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+.item-card-hover:hover {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
-.item-image{
+.item-image {
     width: 80px;
     height: 80px;
     border-radius: 10px;
